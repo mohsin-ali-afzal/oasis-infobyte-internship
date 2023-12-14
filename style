@@ -1,0 +1,277 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    
+    height: 27rem;
+    background-image: linear-gradient(to bottom right, rgb(81, 48, 17), #2089a3);;
+}
+nav{
+    margin-left: 15%;
+    /* display: flex; */
+}
+#nav-itme{
+    display: inline;
+}
+#nav-itme ul{
+    margin-top: 0px;
+    padding-top: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:18rem;
+    padding-right:18rem;
+    list-style: none;
+
+}
+#logo{
+    
+    padding: 1.5rem ;
+    padding-left:0px ;
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    position:absolute;
+    
+
+}
+.item a{
+    text-decoration: none;
+    color: white;
+
+
+}
+/* NavBAr end */
+
+#HeaderData{
+    margin-left: 15%;
+}
+#HeaderData #Text{
+    display: inline-block;
+    height: auto;
+    width: 30rem;
+    color: white;
+    position: relative;
+    top: -83px;
+    /* padding-right: 10rem; */
+
+    
+}
+
+#HeaderData #Text h1{
+    font-family: 'Montserrat', sans-serif;
+padding-right: 2em;
+
+}
+#HeaderData #Headerimg{
+    display: inline-block;
+    margin-top: -86px;
+  
+    /* height: auto;
+    width: 40rem; */
+}
+
+/* BUttons in header */
+
+#HeaderData #startbtn{
+    height: 2.4rem;
+    width: 8rem;
+    color: #2d545e;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: white;
+    border-radius:5px;
+}
+#HeaderData #watchbtn{
+    height: 2.4rem;
+    width: 8rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#design #productbtn{
+    height: 2.4rem;
+    width: 8rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid rgb(8 6 6);
+    background-color: rgb(224 224 220);
+    border-radius: 9px;
+    padding: 12px;
+}
+#design #productbtn :hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* Header End */
+
+#expertiese{
+    position: relative;
+    top: -47px;
+    height: 15em;
+    width: 52.2em;
+    display: flex;
+    justify-content: space-between;
+    margin-left:15% ;
+    /* margin: 15%; */
+    background-color: transparent;
+
+}
+#expertiese .ExpertieseDiv{
+    padding: 3%;
+    width: 9.4em;
+    height: auto;
+    background-color: white;
+    color: white;
+}
+#expertiese .ExpertieseDiv:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#expertiese #div1{
+    background-color: #84adab;
+    color: black;
+}
+#expertiese #div2{
+    background-color: #59807e;
+}
+#expertiese #div3{
+    background-color: #487c7a;
+}
+#expertiese #div4{
+    background-color: #3a6361;
+}
+#expertiese #div1 .logo{
+background-color: #8f54fd;
+}
+#expertiese .ExpertieseDiv .logo{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(65, 57, 20);
+    
+
+}
+#expertiese #div1 .logo img{
+    filter: invert(1);
+    padding-left: 3px;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+#expertiese #div2 .logo img{
+    filter: invert(1);
+    padding-left: 2px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#expertiese #div3 .logo img{
+    filter: invert(1);
+    padding-left: 1px;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+#expertiese #div4 .logo img{
+    filter: invert(1);
+    padding-top: 4px;
+    padding-left: 3px;
+             
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#expertiese .ExpertieseDiv h3{
+    font-size: 0.9em;
+
+}
+#expertiese .ExpertieseDiv p{
+    font-size: 0.7em;
+
+}
+
+/* section end */
+
+#design{
+    height: 25em;
+    width:52.2em ;
+    display: flex;
+    margin-left:15%;
+    justify-content: space-around;
+    column-gap: 2em;
+
+}
+#design #img{
+    /* border-radius:50%; */
+    /* background-color: red; */
+    height: 25em;
+    width: 25em;
+}
+.align{
+    margin-top: 56px;
+}
+#design #img img{
+    
+    height: 300px;
+}
+#design #data h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5em;
+    margin-top: 0px;  
+    margin-bottom: 0.5rem;
+
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(86, 145, 145);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h2 {
+    color: #fff;
+}
+
+
+.footer-section ul {
+    margin: 0;
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: end;
+    margin-right: 82px;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+.box{
+    border: 1px solid black;
+    padding: 22px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    background-color: #84adab;
+}
+
